@@ -10,16 +10,8 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 @EnableEurekaServer
 public class WkEurekaApplication {
 
-//    @Value("${sever.port}")
-//    private String port;
-
     public static void main(String[] args) {
         SpringApplication.run(WkEurekaApplication.class, args);
     }
-
-//    @PostConstruct
-//    private void start() {
-//        System.out.println("port = " + port);
-//    }
 
 }
